@@ -1,0 +1,434 @@
+{
+  "\u00a0U.S.": [
+    {
+      "name": "Service",
+      "value": 77.6
+    },
+    {
+      "name": "Industry",
+      "value": 17.9
+    },
+    {
+      "name": "Agriculture",
+      "value": 1.0
+    },
+    {
+      "name": "Other",
+      "value": 3.6
+    }
+  ],
+  "\u00a0China": [
+    {
+      "name": "Service",
+      "value": 53.5
+    },
+    {
+      "name": "Industry",
+      "value": 39.3
+    },
+    {
+      "name": "Agriculture",
+      "value": 7.2
+    },
+    {
+      "name": "Other",
+      "value": 0.0
+    }
+  ],
+  "\u00a0Japan": [
+    {
+      "name": "Service",
+      "value": 69.9
+    },
+    {
+      "name": "Industry",
+      "value": 28.8
+    },
+    {
+      "name": "Agriculture",
+      "value": 1.0
+    },
+    {
+      "name": "Other",
+      "value": 0.4
+    }
+  ],
+  "\u00a0Germany": [
+    {
+      "name": "Service",
+      "value": 62.9
+    },
+    {
+      "name": "Industry",
+      "value": 26.7
+    },
+    {
+      "name": "Agriculture",
+      "value": 0.9
+    },
+    {
+      "name": "Other",
+      "value": 9.5
+    }
+  ],
+  "\u00a0United Kingdom": [
+    {
+      "name": "Service",
+      "value": 71.6
+    },
+    {
+      "name": "Industry",
+      "value": 17.3
+    },
+    {
+      "name": "Agriculture",
+      "value": 0.7
+    },
+    {
+      "name": "Other",
+      "value": 10.4
+    }
+  ],
+  "\u00a0France": [
+    {
+      "name": "Service",
+      "value": 70.3
+    },
+    {
+      "name": "Industry",
+      "value": 16.7
+    },
+    {
+      "name": "Agriculture",
+      "value": 1.6
+    },
+    {
+      "name": "Other",
+      "value": 11.4
+    }
+  ],
+  "\u00a0India": [
+    {
+      "name": "Service",
+      "value": 47.9
+    },
+    {
+      "name": "Industry",
+      "value": 26.1
+    },
+    {
+      "name": "Agriculture",
+      "value": 17.3
+    },
+    {
+      "name": "Other",
+      "value": 8.7
+    }
+  ],
+  "\u00a0Italy": [
+    {
+      "name": "Service",
+      "value": 65.0
+    },
+    {
+      "name": "Industry",
+      "value": 22.7
+    },
+    {
+      "name": "Agriculture",
+      "value": 1.9
+    },
+    {
+      "name": "Other",
+      "value": 10.4
+    }
+  ],
+  "\u00a0Canada*": [
+    {
+      "name": "Service",
+      "value": 67.7
+    },
+    {
+      "name": "Industry",
+      "value": 24.1
+    },
+    {
+      "name": "Agriculture",
+      "value": 1.7
+    },
+    {
+      "name": "Other",
+      "value": 6.6
+    }
+  ],
+  "\u00a0Brazil": [
+    {
+      "name": "Service",
+      "value": 57.8
+    },
+    {
+      "name": "Industry",
+      "value": 20.2
+    },
+    {
+      "name": "Agriculture",
+      "value": 7.5
+    },
+    {
+      "name": "Other",
+      "value": 14.6
+    }
+  ],
+  "\u00a0Australia": [
+    {
+      "name": "Service",
+      "value": 65.7
+    },
+    {
+      "name": "Industry",
+      "value": 25.5
+    },
+    {
+      "name": "Agriculture",
+      "value": 2.3
+    },
+    {
+      "name": "Other",
+      "value": 6.5
+    }
+  ],
+  "\u00a0Russia": [
+    {
+      "name": "Service",
+      "value": 54.1
+    },
+    {
+      "name": "Industry",
+      "value": 31.8
+    },
+    {
+      "name": "Agriculture",
+      "value": 3.9
+    },
+    {
+      "name": "Other",
+      "value": 10.3
+    }
+  ],
+  "\u00a0Spain": [
+    {
+      "name": "Service",
+      "value": 67.4
+    },
+    {
+      "name": "Industry",
+      "value": 20.4
+    },
+    {
+      "name": "Agriculture",
+      "value": 2.6
+    },
+    {
+      "name": "Other",
+      "value": 9.6
+    }
+  ],
+  "\u00a0Mexico": [
+    {
+      "name": "Service",
+      "value": 59.2
+    },
+    {
+      "name": "Industry",
+      "value": 30.8
+    },
+    {
+      "name": "Agriculture",
+      "value": 3.9
+    },
+    {
+      "name": "Other",
+      "value": 6.1
+    }
+  ],
+  "\u00a0Indonesia": [
+    {
+      "name": "Service",
+      "value": 42.8
+    },
+    {
+      "name": "Industry",
+      "value": 39.8
+    },
+    {
+      "name": "Agriculture",
+      "value": 13.3
+    },
+    {
+      "name": "Other",
+      "value": 4.1
+    }
+  ],
+  "\u00a0Netherlands": [
+    {
+      "name": "Service",
+      "value": 69.4
+    },
+    {
+      "name": "Industry",
+      "value": 17.9
+    },
+    {
+      "name": "Agriculture",
+      "value": 1.5
+    },
+    {
+      "name": "Other",
+      "value": 11.2
+    }
+  ],
+  "\u00a0Turkiye": [
+    {
+      "name": "Service",
+      "value": 52.8
+    },
+    {
+      "name": "Industry",
+      "value": 31.1
+    },
+    {
+      "name": "Agriculture",
+      "value": 5.5
+    },
+    {
+      "name": "Other",
+      "value": 10.6
+    }
+  ],
+  "\u00a0Taiwan": [
+    {
+      "name": "Service",
+      "value": 60.6
+    },
+    {
+      "name": "Industry",
+      "value": 38.0
+    },
+    {
+      "name": "Agriculture",
+      "value": 1.5
+    },
+    {
+      "name": "Other",
+      "value": 0.0
+    }
+  ],
+  "\u00a0Saudi Arabia": [
+    {
+      "name": "Service",
+      "value": 46.5
+    },
+    {
+      "name": "Industry",
+      "value": 44.7
+    },
+    {
+      "name": "Agriculture",
+      "value": 2.7
+    },
+    {
+      "name": "Other",
+      "value": 6.1
+    }
+  ],
+  "\u00a0Thailand": [
+    {
+      "name": "Service",
+      "value": 56.3
+    },
+    {
+      "name": "Industry",
+      "value": 35.0
+    },
+    {
+      "name": "Agriculture",
+      "value": 8.7
+    },
+    {
+      "name": "Other",
+      "value": 0.0
+    }
+  ],
+  "\u00a0South Africa": [
+    {
+      "name": "Service",
+      "value": 63.0
+    },
+    {
+      "name": "Industry",
+      "value": 24.5
+    },
+    {
+      "name": "Agriculture",
+      "value": 2.5
+    },
+    {
+      "name": "Other",
+      "value": 10.0
+    }
+  ],
+  "\u00a0Philippines": [
+    {
+      "name": "Service",
+      "value": 61.0
+    },
+    {
+      "name": "Industry",
+      "value": 28.9
+    },
+    {
+      "name": "Agriculture",
+      "value": 10.1
+    },
+    {
+      "name": "Other",
+      "value": 0.0
+    }
+  ],
+  "\u00a0Egypt": [
+    {
+      "name": "Service",
+      "value": 52.5
+    },
+    {
+      "name": "Industry",
+      "value": 31.2
+    },
+    {
+      "name": "Agriculture",
+      "value": 11.4
+    },
+    {
+      "name": "Other",
+      "value": 4.9
+    }
+  ],
+  "\u00a0Malaysia": [
+    {
+      "name": "Service",
+      "value": 51.6
+    },
+    {
+      "name": "Industry",
+      "value": 37.8
+    },
+    {
+      "name": "Agriculture",
+      "value": 9.6
+    },
+    {
+      "name": "Other",
+      "value": 1.1
+    }
+  ]
+}

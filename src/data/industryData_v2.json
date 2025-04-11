@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Agriculture, forestry and fishing",
+    "value": 0.9
+  },
+  {
+    "name": "Mining and quarrying",
+    "value": 0.8
+  },
+  {
+    "name": "Manufacturing",
+    "value": 9.4
+  },
+  {
+    "name": "Electricity, gas and water supply",
+    "value": 2.2
+  },
+  {
+    "name": "Construction",
+    "value": 6.2
+  },
+  {
+    "name": "Services sector",
+    "value": 80.5
+  }
+]
