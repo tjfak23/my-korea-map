@@ -46,18 +46,17 @@ function Popup({ country, onClose }) {
             {selectedTopic === "culture" && <p>{country}의 문화 관련 정보입니다.</p>}
           </div>
 
+          {/* ✅ 항상 한국 지도 표시 */}
           <div className="info-container">
-            {selectedTopic === "industry" ? (
-              <KoreaMap selectedSector={selectedSector} />
-            ) : (
-              <p>{country}에 대한 설명이 여기에 들어갑니다.</p>
-            )}
+            <KoreaMap
+              selectedSector={selectedTopic === "industry" ? selectedSector : null}
+            />
           </div>
         </div>
       );
     }
 
-    return null; // 혹시 몰라서 fallback 리턴 추가
+    return null; // fallback
   };
 
   return (
