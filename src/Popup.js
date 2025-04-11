@@ -33,52 +33,76 @@ function Popup({ country, onClose }) {
       );
     }
 
+    const handleBack = () => {
+      setStep(1);
+      setSelectedTopic(null);
+    };
+
     if (step === 2) {
+      const handleBack = () => {
+        setStep(1);
+        setSelectedTopic(null);
+        setSelectedSector(null);
+      };
+    
       return (
-        <div className="popup-content">
-          <div className="chart-container">
-            {selectedTopic === "industry" && (
-              <PieChartComponent
-                country={country}
-                setSelectedSector={setSelectedSector}
-              />
-            )}
-            {selectedTopic === "history" && (
-              <p>{country}의 역사 관련 정보입니다.</p>
-            )}
-            {selectedTopic === "culture" && (
-              <CultureChartComponent />
-            )}
+        <>
+          <div className="popup-content">
+            <div className="chart-container">
+              {selectedTopic === "industry" && (
+                <PieChartComponent
+                  country={country}
+                  setSelectedSector={setSelectedSector}
+                />
+              )}
+              {selectedTopic === "history" && (
+                <p></p>
+              )}
+              {selectedTopic === "culture" && <CultureChartComponent />}
+            </div>
+    
+            <div className="info-container">
+              {selectedTopic === "industry" && (
+                <KoreaMap selectedSector={selectedSector} />
+              )}
+    
+              {selectedTopic === "culture" && (
+                <>
+                  <h2>Influence of Korean Wave content in the UK</h2>
+                  <p>
+                  Korean lifestyle content such as food, beauty, and fashion
+                  It is highly popular in the UK.
+                  </p>
+                </>
+              )}
+    
+              {selectedTopic === "history" && (
+                <>
+                  <h2>{country}history</h2>
+                  <p>
+                  Britain has a long imperial history and has been a center of diverse cultural exchanges.
+                  </p>
+                </>
+              )}
+            </div>
           </div>
     
-          {/* ✅ 오른쪽 패널: 조건에 따라 지도 또는 설명 */}
-          <div className="info-container">
-            {selectedTopic === "industry" && (
-              <KoreaMap selectedSector={selectedSector} />
-            )}
-    
-            {selectedTopic === "culture" && (
-              <>
-                <h2>영국 내 한류 콘텐츠 영향력</h2>
-                <p>
-                  음식, 뷰티, 패션 등 한국의 라이프스타일 콘텐츠가
-                  영국 현지에서 높은 선호도를 보이고 있습니다.
-                </p>
-              </>
-            )}
-    
-            {selectedTopic === "history" && (
-              <>
-                <h2>{country}의 역사</h2>
-                <p>
-                  영국은 오랜 제국의 역사를 가지고 있으며, 다양한 문화적 교류의 중심지였습니다.
-                </p>
-              </>
-            )}
+          {/* ✅ 버튼 2개를 가로로 나란히 배치 */}
+          <div className="button-row">
+            <button className="back-button" onClick={handleBack}>
+              뒤로가기
+            </button>
+            <button className="close-button" onClick={onClose}>
+              Close
+            </button>
           </div>
-        </div>
+        </>
       );
     }
+    
+    
+
+    
     
 
     return null; // fallback
@@ -88,7 +112,7 @@ function Popup({ country, onClose }) {
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         {renderStepContent()}
-        <button className="close-button" onClick={onClose}>Close</button>
+      
       </div>
     </div>
   );
