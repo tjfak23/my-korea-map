@@ -29,14 +29,14 @@ function KoreaMap({ selectedSector }) {
   type="image/svg+xml"
   data={svgPath}
   className="korea-map"
-  aria-label="Map of South Korea by selected industry"
+  alt="Map of South Korea by selected industry" // ← aria-label 대신 alt
   role="img"
   style={{
     width: "80%",
-    height: "auto",
-    transform: "translateY(0px)",
+    height: "auto"
   }}
 />
+
       
     </div>
   );
