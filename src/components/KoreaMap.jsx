@@ -13,9 +13,9 @@ function KoreaMap({ selectedSector }) {
 
   // 선택된 산업군에 맞는 SVG 경로 (없으면 기본 지도)
   const svgPath =
-  selectedSector && sectorToSVG[selectedSector]
-    ? sectorToSVG[selectedSector]
-    : "/assets/korea.svg";
+    selectedSector && sectorToSVG[selectedSector]
+      ? sectorToSVG[selectedSector]
+      : "/assets/korea.svg";
 
   return (
     <div
@@ -28,19 +28,29 @@ function KoreaMap({ selectedSector }) {
       }}
     >
       <object
-        key={svgPath} // ✅ 이걸 추가해야 React가 바뀐 svg를 감지함!
+        key={svgPath}
         data={svgPath}
+        type="image/svg+xml"
         className="korea-map"
         aria-label="Map of South Korea by selected industry"
         role="img"
         style={{
-          width: "80%",     // ← 크기 조절 가능
+          width: "80%",
           height: "auto",
-          transform: "translateY(0px)", // ← 위치 조절도 가능
+          transform: "translateY(0px)",
         }}
       >
-        </object>
-      
+        {/* ✅ fallback image - object가 실패하면 이 <img>가 보여짐 */}
+        <img
+          src={svgPath}
+          alt="Map of Korea"
+          className="korea-map"
+          style={{
+            width: "80%",
+            height: "auto",
+          }}
+        />
+      </object>
     </div>
   );
 }
