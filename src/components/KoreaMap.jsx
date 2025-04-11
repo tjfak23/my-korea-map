@@ -25,16 +25,7 @@ function KoreaMap({ selectedSector }) {
         alignItems: "center",
       }}
     >
-      <img
-        key={svgPath}
-        src={svgPath}
-        className="korea-map"
-        alt="/assets/korea.svg"
-        style={{
-          width: "80%",
-          height: "auto",
-        }}
-      />
+      
     </div>
   );
 }
