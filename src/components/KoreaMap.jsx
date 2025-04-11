@@ -26,7 +26,6 @@ function KoreaMap({ selectedSector }) {
     >
       <object
         key={svgPath} // ✅ 이걸 추가해야 React가 바뀐 svg를 감지함!
-        type="image/svg+xml"
         data={svgPath}
         className="korea-map"
         aria-label="Map of South Korea by selected industry"
