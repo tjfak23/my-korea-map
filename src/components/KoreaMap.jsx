@@ -29,7 +29,7 @@ function KoreaMap({ selectedSector }) {
         key={svgPath}
         src={svgPath}
         className="korea-map"
-        alt="Map of Korea"
+        alt="/assets/korea.svg"
         style={{
           width: "80%",
           height: "auto",
