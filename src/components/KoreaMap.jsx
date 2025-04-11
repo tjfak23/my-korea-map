@@ -35,7 +35,9 @@ function KoreaMap({ selectedSector }) {
           height: "auto",
           transform: "translateY(0px)", // ← 위치 조절도 가능
         }}
-      />
+      >
+        </object>
+      
     </div>
   );
 }
