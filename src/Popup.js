@@ -19,14 +19,14 @@ function Popup({ country, onClose }) {
       return (
         <div className="popup-content">
           <div className="button-panel">
-            <ImageButton label="산업" onClick={() => handleTopicClick("industry")} />
-            <ImageButton label="한류" onClick={() => handleTopicClick("history")} />
-            <ImageButton label="환경" onClick={() => handleTopicClick("culture")} />
+            <ImageButton label="INDUSTRY" onClick={() => handleTopicClick("industry")} />
+            <ImageButton label="HISTORY" onClick={() => handleTopicClick("history")} />
+            <ImageButton label="CULTURE" onClick={() => handleTopicClick("culture")} />
           </div>
 
           <div className="info-container">
             <h2>{country}</h2>
-            <p>{country}에 대한 간단한 소개가 들어갑니다.</p>
+            <p>{country}</p>
           </div>
         </div>
       );
