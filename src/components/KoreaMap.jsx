@@ -30,6 +30,7 @@ function KoreaMap({ selectedSector }) {
         data={svgPath}
         className="korea-map"
         aria-label="Map of South Korea by selected industry"
+        role="img"
         style={{
           width: "80%",     // ← 크기 조절 가능
           height: "auto",
