@@ -78,6 +78,11 @@
   text-align: center;
 }
 
+.modal-content {
+  width: fit-content;
+}
+
+
 /* 우측 내용 박스 */
 .info-container {
   text-align: left;
@@ -112,7 +117,7 @@
 /* 지도 박스 */
 .map-container {
   width: 600px;
-  height: 500px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,3 +154,4 @@
   filter: drop-shadow(0 0 4px red);
   transition: all 0.2s ease;
 }
+

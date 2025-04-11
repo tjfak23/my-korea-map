@@ -13,7 +13,7 @@ function Popup({ country, onClose }) {
     setSelectedTopic(topic);
     setStep(2);
   };
-
+  <div className={step === 2 ? "popup-content step-two" : "popup-content"}></div>
   const renderStepContent = () => {
     if (step === 1) {
       return (
