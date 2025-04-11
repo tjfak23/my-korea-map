@@ -39,10 +39,10 @@ function App() {
 
   // 🔸 SVG 내 산업 파이차트 클릭 이벤트
   useEffect(() => {
-    const industryPaths = document.querySelectorAll(".uk-industry path"); // ⬅ SVG에서 class="uk-industry"로 그룹 묶기 필요!
+    const industryPaths = document.querySelectorAll(".uk-industry path");
     industryPaths.forEach((path) => {
       path.addEventListener("click", () => {
-        const industry = path.getAttribute("id"); // id="Manufacturing" 등
+        const industry = path.getAttribute("id");
         if (industry) {
           handleIndustryClick(industry);
         }
@@ -75,7 +75,16 @@ function App() {
 
   return (
     <div style={{ width: "100%", height: "100vh", position: "relative" }}>
-      <MapSVG style={{ width: "100%", height: "100%", display: "block" }} />
+      {/* ✅ 조건부 blur 처리 */}
+      <MapSVG
+        style={{
+          width: "100%",
+          height: "100%",
+          display: "block",
+          filter: selectedCountry ? "blur(2px)" : "none",
+          transition: "filter 0.3s ease",
+        }}
+      />
       {selectedCountry && <Popup country={selectedCountry} onClose={closeModal} />}
     </div>
   );
