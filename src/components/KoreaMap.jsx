@@ -12,7 +12,10 @@ function KoreaMap({ selectedSector }) {
   };
 
   // 선택된 산업군에 맞는 SVG 경로 (없으면 기본 지도)
-  const svgPath = sectorToSVG[selectedSector] || "/assets/korea.svg";
+  const svgPath =
+  selectedSector && sectorToSVG[selectedSector]
+    ? sectorToSVG[selectedSector]
+    : "/assets/korea.svg";
 
   return (
     <div
